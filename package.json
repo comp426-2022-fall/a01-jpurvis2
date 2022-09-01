@@ -1,0 +1,32 @@
+{
+  "name": "jordan-purvis-webserver",
+  "version": "1.0.0",
+  "description": "This package contains a very simple web server that takes one argument for port and then serves any files inside the public directory.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a01-jpurvis2.git"
+  },
+  "author": "@jpurvis2",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a01-jpurvis2/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a01-jpurvis2#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
